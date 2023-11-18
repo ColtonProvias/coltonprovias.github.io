@@ -6,6 +6,6 @@ name = "Colton Provias"
 headline = "Software Engineer, Composer, Audio Engineer"
 bio = "Software Engineer at Google, film score composer, lead of the Googler Virtual Orchestra."
 links = [
-    { mastodon = "https://universeodon.com/cprovias" },
+    { mastodon = "https://universeodon.com/@cprovias" },
     { linkedin = "https://linkedin.com/in/ColtonProvias" }
 ]
