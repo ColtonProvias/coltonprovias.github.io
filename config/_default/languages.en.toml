@@ -1,4 +1,6 @@
 title = "Colton Provias"
+
+[params]
 dateFormat = "2006-01-02"
 
 [author]
