@@ -53,7 +53,7 @@ jobs:
         run: "npm ci"
         working-directory: apps/evaluator
       - name: Build evaluator
-        run: "ng run build"
+        run: "npm run build"
         working-directory: apps/evaluator
       - name: Move evaluator files to static
         run: "cp -Rv apps/evaluator/dist/* static/"
