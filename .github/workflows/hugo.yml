@@ -56,7 +56,7 @@ jobs:
         run: "npm run build"
         working-directory: apps/evaluator
       - name: Move evaluator files to static
-        run: "cp -Rv apps/evaluator/dist/* static/"
+        run: "mkdir static/evaluator && cp -Rv apps/evaluator/dist/browser/* static/evaluator/"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
