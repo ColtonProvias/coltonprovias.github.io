@@ -47,6 +47,14 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Setup evaluator dependencies
+        run: "npm ci"
+        working-directory: apps/evaluator
+      - name: Build evaluator
+        run: "ng run build"
+        working-directory: apps/evaluator
+      - name: Move evaluator files to static
+        run: "cp -Rv apps/evaluator/dist/* static/"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
