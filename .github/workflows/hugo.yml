@@ -47,6 +47,8 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install Angular
+        run: "npm install @angular/cli"
       - name: Setup evaluator dependencies
         run: "npm ci"
         working-directory: apps/evaluator
