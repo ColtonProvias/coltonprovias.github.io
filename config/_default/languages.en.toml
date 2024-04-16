@@ -3,7 +3,7 @@ title = "Colton Provias"
 [params]
 dateFormat = "2006-01-02"
 
-[author]
+[params.author]
 name = "Colton Provias"
 headline = "Software Engineer, Composer, Audio Engineer"
 bio = "Software Engineer at Google, film score composer, lead of the Googler Virtual Orchestra."
