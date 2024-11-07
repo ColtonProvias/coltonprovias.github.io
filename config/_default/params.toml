@@ -2,3 +2,5 @@ colorScheme = "ocean"
 
 [homepage]
 layout = 'profile'
+# TODO - Enable after preparing first post
+showRecent = true

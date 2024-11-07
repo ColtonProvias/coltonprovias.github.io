@@ -1,1 +1,3 @@
 googleAnalytics = 'G-C0GKTVKS4N'
+baseURL = 'http://coltonprovias.github.io/'
+languageCode = 'en-us'
