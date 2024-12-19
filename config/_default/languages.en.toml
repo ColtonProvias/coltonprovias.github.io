@@ -8,6 +8,7 @@ name = "Colton Provias"
 headline = "Software Engineer, Composer, Audio Engineer"
 bio = "Software Engineer at Google, film score composer, lead of the Googler Virtual Orchestra."
 links = [
-    { mastodon = "https://universeodon.com/@cprovias" },
-    { linkedin = "https://linkedin.com/in/ColtonProvias" }
+    { linkedin = "https://linkedin.com/in/ColtonProvias" },
+    { bluesky = "https://bsky.app/profile/cprovias.bsky.social" },
+    { mastodon = "https://universeodon.com/@cprovias" }
 ]
