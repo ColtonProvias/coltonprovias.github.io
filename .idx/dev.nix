@@ -23,7 +23,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["hugo" "serve" "--port=$PORT"];
+          command = ["hugo" "serve" "--port=$PORT" "--buildFuture" "--buildDrafts"];
           manager = "web";
         };
         # web = {
