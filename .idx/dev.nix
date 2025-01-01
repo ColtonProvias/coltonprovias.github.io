@@ -16,6 +16,7 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       "golang.go"
+      "esbenp.prettier-vscode"
     ];
 
     # Enable previews
